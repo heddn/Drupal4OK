@@ -210,20 +210,13 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'help4ok_sandbox',
-      'username' => 'root',
-      'password' => 'tw1*itEiB',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
+if (file_exists('/var/www/site-php')) {
+  require('/var/www/site-php/drupal4ok/housing_branch-settings.inc');
+  $conf['cache_backends'][] = './sites/all/modules/memcache/memcache.inc';
+  $conf['lock_inc'] = './sites/all/modules/memcache/memcache-lock.inc';
+  $conf['cache_default_class'] = 'MemCacheDrupal';
+  $conf['cache_class_form'] = 'DrupalDatabaseCache';
+}
 
 /**
  * Access control for update.php script.
