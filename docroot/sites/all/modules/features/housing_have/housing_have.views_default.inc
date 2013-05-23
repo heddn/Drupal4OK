@@ -135,7 +135,7 @@ function housing_have_views_default_views() {
 
   /* Display: Housing Available */
   $handler = $view->new_display('page', 'Housing Available', 'page');
-  $handler->display->display_options['path'] = 'housing/available';
+  $handler->display->display_options['path'] = 'housing/have';
   $export['housing_available'] = $view;
 
   $view = new view();
@@ -262,7 +262,7 @@ function housing_have_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'housing/required';
+  $handler->display->display_options['path'] = 'housing/need';
   $export['housing_required'] = $view;
 
   return $export;
