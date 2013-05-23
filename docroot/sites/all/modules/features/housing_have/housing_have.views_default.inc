@@ -57,7 +57,7 @@ function housing_have_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = TRUE;
-  $handler->display->display_options['header']['area']['content'] = '<h3>If you need housing, you are in the right place. If you don\'t see a match, post a request <a href="/node/add/housing-need">here.</a></h3>';
+  $handler->display->display_options['header']['area']['content'] = '<h3>If you need housing, you are in the right place. If you don\'t see a match, post a request for housing <a href="/node/add/housing-need">here.</a></h3>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   /* Header: Global: Result summary */
   $handler->display->display_options['header']['result']['id'] = 'result';
@@ -72,7 +72,7 @@ function housing_have_views_default_views() {
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
   $handler->display->display_options['footer']['area']['empty'] = TRUE;
-  $handler->display->display_options['footer']['area']['content'] = '<h3>If you don\'t see a match, post a request <a href="/node/add/housing-need">here.</a></h3>';
+  $handler->display->display_options['footer']['area']['content'] = '<h3>If you don\'t see a match, post a request for housing  <a href="/node/add/housing-need">here.</a></h3>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
@@ -185,7 +185,7 @@ function housing_have_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = TRUE;
-  $handler->display->display_options['header']['area']['content'] = '<h3>If you can host people, you are in the right place. If you don\'t see a match, post an offer <a href="/node/add/housing-have">here.</a></h3>';
+  $handler->display->display_options['header']['area']['content'] = '<h3>If you can host people, you are in the right place. If you can\'t offer housing to anyone from the list below please post an offer <a href="/node/add/housing-have">here.</a></h3>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   /* Header: Global: Result summary */
   $handler->display->display_options['header']['result']['id'] = 'result';
