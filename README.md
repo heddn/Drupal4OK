@@ -6,9 +6,11 @@ Drupal 4 Oklahoma // #Drupal4OK
 
 ### Twitter
 
-[#Drupal4OK](https://twitter.com/search?q=%23Drupal4OK&src=typd) - Coders, please join the conversation.
+[#Help4OK](https://twitter.com/search?q=%23Help4OK&src=typd) - General promotion for help4ok.org.
 
 [#Help4OkFeedback](https://twitter.com/search?q=%23Help4OkFeedback&src=typd) - Users/Testers, please send feedback, feature requests, input.
+
+[#Drupal4OK](https://twitter.com/search?q=%23Drupal4OK&src=typd) - Drupal, PHP, JS, CSS coders, please join the conversation and contribute.
 
 ### GitHub
 [Pull requests](https://github.com/bryanhirsch/drupal4ok/pulls), [issues](https://github.com/bryanhirsch/drupal4ok/issues), ideas etc. welcome!
