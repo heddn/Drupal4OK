@@ -210,21 +210,20 @@
  *   );
  * @endcode
  */
-$databases['default']['default'] = array(
-  'driver' => 'mysql',
-  'database' => 'd4ok',
-  'username' => 'root',
-  'password' => 'taz4mnbe',
-  'host' => 'localhost',
-);
-
-if (file_exists('/var/www/site-php')) {
-  require('/var/www/site-php/drupal4ok/housing_branch-settings.inc');
-  $conf['cache_backends'][] = './sites/all/modules/memcache/memcache.inc';
-  $conf['lock_inc'] = './sites/all/modules/memcache/memcache-lock.inc';
-  $conf['cache_default_class'] = 'MemCacheDrupal';
-  $conf['cache_class_form'] = 'DrupalDatabaseCache';
-}
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'help4ok_sandbox',
+      'username' => 'root',
+      'password' => 'tw1*itEiB',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
 
 /**
  * Access control for update.php script.
@@ -256,7 +255,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '28l4prbYy65qu0mXK3T-Hs6zfMHtgYsyRR3tAL__a-M';
+$drupal_hash_salt = 'D0-C6dsMy__J4XDru82n7p-_8FQa4hOAmke0h_fRT3E';
 
 /**
  * Base URL (optional).
