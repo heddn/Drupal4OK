@@ -11,11 +11,11 @@ function housing_have_views_default_views() {
   $export = array();
 
   $view = new view();
-  $view->name = 'have_bed';
+  $view->name = 'housing_available';
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Have Bed';
+  $view->human_name = 'Housing - Available';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -134,16 +134,16 @@ function housing_have_views_default_views() {
   );
 
   /* Display: Have Bed */
-  $handler = $view->new_display('page', 'Have Bed', 'page');
-  $handler->display->display_options['path'] = 'housing/have';
-  $export['have_bed'] = $view;
+  $handler = $view->new_display('page', 'Housing Available', 'page');
+  $handler->display->display_options['path'] = 'housing/available';
+  $export['housing_available'] = $view;
 
   $view = new view();
-  $view->name = 'need_bed';
+  $view->name = 'housing_required';
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Need Bed';
+  $view->human_name = 'Housing - Required';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -262,8 +262,8 @@ function housing_have_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'housing/need';
-  $export['need_bed'] = $view;
+  $handler->display->display_options['path'] = 'housing/required';
+  $export['housing_required'] = $view;
 
   return $export;
 }
