@@ -133,7 +133,7 @@ function housing_have_views_default_views() {
     3 => 0,
   );
 
-  /* Display: Have Bed */
+  /* Display: Housing Available */
   $handler = $view->new_display('page', 'Housing Available', 'page');
   $handler->display->display_options['path'] = 'housing/available';
   $export['housing_available'] = $view;
