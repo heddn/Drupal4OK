@@ -12,7 +12,6 @@ dependencies[] = auto_nodetitle
 dependencies[] = browscap
 dependencies[] = ctools
 dependencies[] = date
-dependencies[] = devel
 dependencies[] = email
 dependencies[] = entity
 dependencies[] = entityreference
