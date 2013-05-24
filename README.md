@@ -31,6 +31,9 @@ A bunch of volunteer coders at [Drupalcon Portland](http://portland2013.drupal.o
 ### Pics, videos, etc.
 
 http://youtu.be/oeqo5PrO3OM
+
 http://www.flickr.com/photos/86147362@N03/sets/72157633592532162/
+
 http://www.flickr.com/photos/86147362@N03/sets/72157633592532162/
+
 https://www.acquia.com/blog/help-oklahoma-help4ok-website-launches
