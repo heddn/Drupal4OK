@@ -34,8 +34,4 @@ A bunch of volunteer coders at [Drupalcon Portland](http://portland2013.drupal.o
 - http://www.flickr.com/photos/86147362@N03/sets/72157633592532162/
 - http://www.flickr.com/photos/86147362@N03/sets/72157633592532162/
 - https://www.acquia.com/blog/help-oklahoma-help4ok-website-launches
-
-
-### Reddit iAmA
-
-http://bit.ly/10WobgJ 
+- Reddit iAmA: http://bit.ly/10WobgJ 
