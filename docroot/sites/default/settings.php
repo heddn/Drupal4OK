@@ -217,16 +217,6 @@ if (file_exists('/var/www/site-php')) {
   $conf['cache_default_class'] = 'MemCacheDrupal';
   $conf['cache_class_form'] = 'DrupalDatabaseCache';
 }
-else {
-  // For local development.
-  $databases['default']['default'] = array(
-    'driver' => 'mysql',
-    'database' => 'drupal4ok',
-    'username' => 'root',
-    'password' => 'root',
-    'host' => 'localhost',
-  );
-}
 
 /**
  * Access control for update.php script.
