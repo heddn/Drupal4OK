@@ -12,6 +12,11 @@ Drupal 4 Oklahoma // #Drupal4OK
 
 [#Drupal4OK](https://twitter.com/search?q=%23Drupal4OK&src=typd) - Drupal, PHP, JS, CSS coders, please join the conversation and contribute.
 
+### IRC
+
+irc.freenode.net
+
+
 ### GitHub
 [Pull requests](https://github.com/bryanhirsch/drupal4ok/pulls), [issues](https://github.com/bryanhirsch/drupal4ok/issues), ideas etc. welcome!
 
@@ -24,13 +29,13 @@ Today (Thursday, May 23), we're going to try and post user input and feature req
 A bunch of volunteer coders at [Drupalcon Portland](http://portland2013.drupal.org/) are sprinting on [help4ok.org](http://help4ok.org) throughout the week.
 [http://portland2013.drupal.org/](http://portland2013.drupal.org/)
 
-*Thursday, May 23* - Meet up at [Coder's Lounge](http://portland2013.drupal.org/coder-lounge) after the Keynote. When wifi craps out on us later in the morning, hopefully Acquia will be able to donate wifi again. Follow us on Twitter #Drupal4OK to find out where to meet up with the group. Today we're working to respond to usability input from users and testers, and integrate VOIP Drupal text and voice messaging functionality. Lots of great input has already started coming in from folks at the U.S. General Services Administration, Federal Emergency Management Agency (FEMA), Social Security Administration, Department of Agriculture, Department of Energy, and National Institutes of Health.
+*Join us at the Code Sprint today in room B113 on IRC in #drupal4ok.* - Friday, May 24, 2013
 
-*Friday, May 24* - Drupalcon Code Sprint Day. Tentative plan: If (help4ok.org)(http://help4ok.org) is stable and feature complete for use by people on the ground in Oklahoma, we'll turn our attention to making this code base into an easily reusable Drupal distribution. A number of people have expressed interest in making this project into something generically reusable for disaster response. Please join us at the Drupalcon code sprint to contribute!
+### News, pics, videos, etc.
 
-### Pics, videos, etc.
-
-- http://youtu.be/oeqo5PrO3OM
+- NBC Portland, KGW coverage of Drupacon sprint: http://www.kgw.com/video/featured-videos/Portland-developers-set-up-site-to-help-OK-tornado-victims-208757851.html
+- Portland Business Journal, http://www.bizjournals.com/portland/blog/2013/05/drupal.html
+- [Stan Ascher's](http://www.youtube.com/user/StanAscher?feature=watch) video from the #Drupal4OK code sprint ad Drupalcon Portland: http://youtu.be/oeqo5PrO3OM
 - http://www.flickr.com/photos/86147362@N03/sets/72157633592532162/
 - http://www.flickr.com/photos/86147362@N03/sets/72157633592532162/
 - https://www.acquia.com/blog/help-oklahoma-help4ok-website-launches
